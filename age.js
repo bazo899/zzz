@@ -1,4 +1,4 @@
-function age()
+Jifunction age()
 {
 var d=document.getElementById('day').value;
 var m=document.getElementById('month').value;
@@ -6,12 +6,7 @@ var y=document.getElementById('year').value;
 const date=new Date();
 var roj=date.getDate();
 var hayv=1+date.getMonth();
-var sal=date.getFullYear();
-
-
-var M=[31,28,31,30,31,30,31,31,30,31,30,31];//bahzad_krd
-e=hayv-1;
-
+var sal=date.getFullYear(
 if(d>roj)
 {
   roj=roj+M[hayv-1];
